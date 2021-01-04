@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+/* 導覽列 */
+nav {
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+    background: rgb(113, 161, 94);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px 30px;
+}
+
+#logo img {
+    width: 50px;
+}
+
+#link a {
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#link img {
+    width: 50px;
+}
