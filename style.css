@@ -124,3 +124,13 @@ hr {
     line-height: 2;
     padding: 10px 0 20px;
 }
+
+footer {
+    background-color: rgba(30, 63, 52, 0.575);
+    padding: 20px 0 ;
+    text-align: center;
+}
+
+footer h2 {
+    color: #3835313f;
+}
