@@ -7,6 +7,7 @@
     <title>蔬服 | VEGETABLE</title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                 <p>Do you want to practise your reading and learn about global issues, special days and festivals?</p>
                 <a href="" class="button">TryMe!</a>
             </div>
-            <div class="pic"><img src="./pic/one.jpg" alt="01"></div>
+            <div class="pic" data-aos="fade-left" data-aos-delay="1000"><img src="./pic/one.jpg" alt="01"></div>
         </div>
         <div>
             <div class="text">
@@ -50,7 +51,7 @@
                     intermediate (CEFR level B1) and upper intermediate (CEFR level B2) learners.</p>
                 <a href="" class="button">TryMe!</a>
             </div>
-            <div class="pic"><img src="./pic/two.jpg" alt="02">
+            <div class="pic" data-aos="fade-right" data-aos-delay="1000"><img src="./pic/two.jpg" alt="02">
             </div>
         </div>
         <div>
@@ -61,41 +62,44 @@
                     international events, celebrations and topics.</p>
                 <a href="" class="button">TryMe!</a>
             </div>
-            <div class="pic"><img src="./pic/three.jpg" alt="03"></div>
+            <div class="pic" data-aos="fade-left" data-aos-delay="1000"><img src="./pic/three.jpg" alt="03"></div>
         </div>
     </section>
 
 
     <!-- 關於我們 -->
     <section id="info">
-        <div class="pic">
+        <div class="pic" data-aos="zoom-in">
             <img src="./pic/one.jpg" alt="">
         </div>
         <div class="text">
-                <h1>First</h1>
-                <hr>
-                <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English learners.</p>
-                <a href="" class="button">TryMe!</a>
+            <h1>First</h1>
+            <hr>
+            <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English
+                learners.</p>
+            <a href="" class="button">TryMe!</a>
         </div>
 
-        <div class="pic">
+        <div class="pic" data-aos="zoom-in">
             <img src="./pic/one.jpg" alt="">
         </div>
         <div class="text">
-                <h1>Second</h1>
-                <hr>
-                <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English learners.</p>
-                <a href="" class="button">TryMe!</a>
+            <h1>Second</h1>
+            <hr>
+            <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English
+                learners.</p>
+            <a href="" class="button">TryMe!</a>
         </div>
 
-        <div class="pic">
+        <div class="pic" data-aos="zoom-in">
             <img src="./pic/one.jpg" alt="">
         </div>
         <div class="text">
-                <h1>Third</h1>
-                <hr>
-                <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English learners.</p>
-                <a href="" class="button">TryMe!</a>
+            <h1>Third</h1>
+            <hr>
+            <p>In fact, the reading level of most English magazines is around 6th grade, making them ideal for English
+                learners.</p>
+            <a href="" class="button">TryMe!</a>
         </div>
     </section>
 
@@ -104,7 +108,11 @@
         <p>&copy; 2021 Tricia</p>
     </footer>
 
-
+    <!-- CDN JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
