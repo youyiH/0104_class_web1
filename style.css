@@ -8,7 +8,7 @@
 nav {
     display: grid;
     grid-template-columns: 20% 60% 10%;
-    background: rgb(113, 161, 94);
+    background: rgb(125, 141, 120);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     padding: 20px 30px;
 }
@@ -33,7 +33,64 @@ nav {
 #link a:hover {
     color: darkgreen;
 }
+/* 輪播圖 */
 
+#banner {
+    text-align: center;
+    color: rgba(233, 240, 208, 0.856);
+}
+
+#banner h1 {
+    padding: 30px;
+    margin-top: 200px;
+    font-size: 120px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+#banner p {
+    padding: 30px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+#banner hr {
+    width: 200px;
+    height: 3px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.212);
+    border: none;
+}
+
+#banner .slick-prev {
+    left: 50px;
+    z-index: 2;
+    transform: scale(2);
+}
+
+#banner .slick-next {
+    right: 50px;
+    z-index: 2;
+    transform: scale(2);
+}
+
+#banner .slick-dots {
+    bottom: 25px;
+}
+
+#banner div {
+    height: 100vh;
+}
+
+.banner1 {
+    background-image: url(./pic/01.jpg);
+}
+.banner2 {
+    background-image: url(./pic/02.jpg);
+}
+.banner3 {
+    background-image: url(./pic/03.jpg);
+}
+
+/* 產品 */
 #products {
     width: 1280px;
     margin: 0 auto;
